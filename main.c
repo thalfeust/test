@@ -4,6 +4,7 @@
 
 void minusculeStringCommande();
 void affichageBinaireCommande();
+int blabla();
 
 int main() {
 
@@ -59,6 +60,17 @@ int main() {
 	fclose (ficOutH);
 
 	return(0);
+}
+
+int blabla() {
+
+	int blabla=0;
+	
+	for(int i=0; i<= 45; i++) {
+		blabla++;
+	}
+	
+	return blabla;
 }
 
 
